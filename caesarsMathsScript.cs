@@ -216,6 +216,10 @@ public class caesarsMathsScript : MonoBehaviour {
                 newNumbers[1] = UnityEngine.Random.Range(6, 15);
                 break;
             case 4:
+		// B - A
+                newNumbers[0] = UnityEngine.Random.Range(6, 50);
+                newNumbers[1] = UnityEngine.Random.Range(50, 80);
+                break;
             case 5:
                 // A - B
                 newNumbers[0] = UnityEngine.Random.Range(50, 80);
@@ -246,6 +250,9 @@ public class caesarsMathsScript : MonoBehaviour {
                 answer = num1 / num2;
                 break;
             case 4:
+		// B - A
+                answer = num2 - num1;
+                break;
             case 5:
                 // A - B
                 answer = num1 - num2;
